@@ -1,0 +1,73 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-color: white;
+}
+
+.img1
+{
+	float: right;
+	width: 270px;
+	height: 200px;
+}
+.musicbody1
+{
+	margin: 10px;
+	padding:20px;
+	width: 50%;
+	float:left;
+	line-height: 1.5em;
+	background-color: white;
+}
+
+.musicbody2
+{
+        margin: 10px;
+        padding:20px;
+        width: 50%;
+        float:left;
+	line-height: 1.5em;
+        background-color: Cyan;
+	color:DarkRed;
+}
+
+.musicbody3
+{
+        margin: 10px;
+        padding:20px;
+        width: 50%;
+        float:left;
+	line-height: 1.5em;
+        background-color: black;
+	color:white;
+}
+.musicbody4
+{
+        margin: 10px;
+        padding:20px;
+        width: 50%;
+        float:left;
+	line-height: 1.5em;
+        background-color: yellow;
+	color:red;
+}
+.musicbody5
+{
+        margin: 10px;
+        padding:20px;
+        width: 50%;
+        float:left;
+	color: Purple;
+	line-height: 1.5em;
+        background-color: PapayaWhip;
+}
+.me img
+{
+	position: fixed;
+	left: 830px;
+	height:540px;
+	width:370px;
+	top: 80px;
+}
+

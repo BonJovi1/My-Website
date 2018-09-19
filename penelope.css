@@ -1,0 +1,110 @@
+.penelope
+{
+	background: url("./images/pcwall2.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	width:1000px;
+	height:1050px;
+}
+
+h1
+{
+	border-bottom: 5px dashed #ccc;
+	color: #933;
+	font: 25px Georgia, serif;
+	padding: 2px;
+	margin-left: 25%;
+	text-align: center;
+}
+img
+{
+        
+        border-color: #aaa #ccc #ddd #bbb;
+        border-style: solid;
+        border-width: 1px;
+        padding: 2px;
+	width: 200px;
+        height: 150px;
+}
+
+.hoverbox 
+{
+	cursor: pointer;
+	list-style: none;
+	margin-left: 25%;
+}
+
+.hoverbox li:hover .preview
+{
+	display:block;
+	position: absolute;
+        top: -33px;
+        left: -45px;
+        z-index: 1;
+}
+
+.hoverbox li
+{
+	float: left;
+	padding: 15px;
+	position: relative;
+}
+
+.preview
+{
+	display: none;
+	width: 400px;
+	height: 300px;
+}
+
+.topnav
+{
+        position:fixed;
+        margin:0;
+        padding:0;
+        list-style: none;
+        box-shadow: 0 10px 20px #888888;
+}
+
+.topnav li
+{ 
+        width: 160px;
+        background-color:black;
+        float:left;
+        color:white;
+        margin-right: 1px;
+        opacity:0.4;
+}
+
+.topnav li a
+{
+        text-decoration: none;
+        color: white;
+        display: block;
+        text-align:center;
+        padding: 20px;
+        border-radius: 15px 30px;
+}
+
+.topnav li a:hover
+{
+        background-color:red;
+        cursor:pointer;
+        -webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 200ms linear;
+}
+
+.fixedname
+{
+	margin:2px; 
+	padding: 2px; 
+	float: left; 
+	writing-mode: vertical-lr;
+  	text-orientation: upright; 
+	font-size: 25px; 
+	position: fixed; 
+	font-family: 'Vollkorn SC', serif;
+	color:red;
+}

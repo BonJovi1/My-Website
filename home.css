@@ -1,0 +1,179 @@
+.homebody
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.Abhinav
+{
+	font-family: 'Spectral SC', serif; 
+	text-shadow: 0 0 3px #FF0000; 
+	text-align: center;
+}
+
+.about
+{
+	text-align: center;
+}
+
+ul
+{
+	position:fixed;
+	margin:0;
+	padding:0;
+        list-style: none;
+	position:fixed;
+	width:100%;
+	box-shadow: 0 10px 20px #888888;
+}
+
+ul li
+{       
+	width: 12.4%;
+	background-color:black;
+	float:left;
+        color:white;
+	margin-right: 1px;
+	opacity:0.4;
+}
+
+ul li:hover
+{
+	opacity:1.4;
+
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align:center;
+	padding: 20px;
+	border-radius: 15px 30px;
+}
+
+ul li a:hover
+{
+	background-color:red;
+	cursor:pointer;
+	-webkit-transition: background-color 500ms linear;
+        -moz-transition: background-color 200ms linear;
+}
+
+.parallax1
+{
+        background-image: url("./images/stones.jpg");
+	height: 550px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+
+.parallax2
+{
+        background-image: url("./images/6.jpg");
+        height: 500px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+
+.footer 
+{
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: black;
+   	color: white;
+   	text-align: center;
+	height: 110px;
+	font-family: 'Enriqueta', serif;
+}
+
+.heading
+{
+	margin: 5px;
+	padding: 7px;
+	font-family: 'Alike', serif;
+}
+
+.heart
+{
+	font-family: 'Spectral SC', serif; 
+	text-shadow: 0 0 3px blue; 
+	text-align: center;
+}
+
+#overlay 
+{
+	position: fixed;
+    	display: none;
+    	width: 100%;
+    	height: 100%;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	background-color: rgba(0,0,0,0.5);
+    	z-index: 2;
+    	cursor: pointer;
+}
+
+#welcome
+{
+	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	font-size: 50px;
+    	color: white;
+    	transform: translate(-50%,-50%);
+}
+
+.starwars
+{
+        font-family: 'Spectral SC', serif;
+        text-shadow: 0 0 3px green;
+        text-align: center;
+}
+
+.sweden
+{
+        font-family: 'Spectral SC', serif;
+        text-shadow: 0 0 3px orange;
+        text-align: center;
+}
+
+.neonoir
+{
+        font-family: 'Spectral SC', serif;
+        text-shadow: 0 0 3px black;
+        text-align: center;
+}
+
+.parallax3
+{
+        background-image: url("./images/starwars.jpg");
+        height: 450px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+.parallax4
+{
+        background-image: url("./images/sweden.jpg");
+        height: 450px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+.parallax5
+{
+        background-image: url("./images/neonoir.jpg");
+        height: 450px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+
+
